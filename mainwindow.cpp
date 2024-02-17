@@ -24,6 +24,12 @@ void MainWindow::showNum()
 
 void MainWindow::on_pushButton_clicked()
 {
+    if(operator_char=='0')
+    {
+        operator_char='+';
+        num_in=0;
+        num_sum=0;
+    }
     if(num_in<99999999999999999)
     num_in=num_in*10+1;
     showNum();
@@ -32,6 +38,12 @@ void MainWindow::on_pushButton_clicked()
 
 void MainWindow::on_pushButton_2_clicked()
 {
+    if(operator_char=='0')
+    {
+    operator_char='+';
+    num_in=0;
+    num_sum=0;
+    }
     if(num_in<99999999999999999)
      num_in=num_in*10+2;
     showNum();
@@ -39,6 +51,12 @@ void MainWindow::on_pushButton_2_clicked()
 
 void MainWindow::on_pushButton_3_clicked()
 {
+    if(operator_char=='0')
+    {
+     operator_char='+';
+     num_in=0;
+     num_sum=0;
+    }
     if(num_in<99999999999999999)
      num_in=num_in*10+3;
     showNum();
@@ -46,6 +64,12 @@ void MainWindow::on_pushButton_3_clicked()
 
 void MainWindow::on_pushButton_4_clicked()
 {
+    if(operator_char=='0')
+    {
+     operator_char='+';
+     num_in=0;
+     num_sum=0;
+    }
     if(num_in<99999999999999999)
      num_in=num_in*10+4;
     showNum();
@@ -53,6 +77,12 @@ void MainWindow::on_pushButton_4_clicked()
 
 void MainWindow::on_pushButton_5_clicked()
 {
+    if(operator_char=='0')
+    {
+     operator_char='+';
+     num_in=0;
+     num_sum=0;
+    }
     if(num_in<99999999999999999)
      num_in=num_in*10+5;
     showNum();
@@ -60,6 +90,12 @@ void MainWindow::on_pushButton_5_clicked()
 
 void MainWindow::on_pushButton_6_clicked()
 {
+    if(operator_char=='0')
+    {
+     operator_char='+';
+     num_in=0;
+     num_sum=0;
+    }
     if(num_in<99999999999999999)
      num_in=num_in*10+6;
     showNum();
@@ -67,6 +103,12 @@ void MainWindow::on_pushButton_6_clicked()
 
 void MainWindow::on_pushButton_7_clicked()
 {
+    if(operator_char=='0')
+    {
+     operator_char='+';
+     num_in=0;
+     num_sum=0;
+    }
     if(num_in<99999999999999999)
      num_in=num_in*10+7;
     showNum();
@@ -74,6 +116,12 @@ void MainWindow::on_pushButton_7_clicked()
 
 void MainWindow::on_pushButton_8_clicked()
 {
+    if(operator_char=='0')
+    {
+     operator_char='+';
+     num_in=0;
+     num_sum=0;
+    }
     if(num_in<99999999999999999)
      num_in=num_in*10+8;
     showNum();
@@ -81,6 +129,12 @@ void MainWindow::on_pushButton_8_clicked()
 
 void MainWindow::on_pushButton_9_clicked()
 {
+    if(operator_char=='0')
+    {
+     operator_char='+';
+     num_in=0;
+     num_sum=0;
+    }
     if(num_in<99999999999999999)
      num_in=num_in*10+9;
     showNum();
